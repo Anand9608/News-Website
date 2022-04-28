@@ -88,7 +88,7 @@ const SEARCH_NEWS = "https://newsapi.org/v2/everything?q="
 
 window.onload = function() {
     newsType.innerHTML="<h4>Headlines</h4>";
-    fetchHeadlines('in');
+    fetchHeadlines(SELECTED_COUNTRY_CODE);
 };
 
 
